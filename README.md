@@ -166,6 +166,4 @@ Parabéns! Você aprendeu os fundamentos de como as informações são estrutura
 -   A diferença entre `const` e `let`.
 -   Os principais tipos de dados.
 -   O que é JSON e como manipulá-lo.
--   Como usar a `attributeApi` para dar "memória" às suas aplicações.
-
-Continue praticando e explorando. A programação é uma jornada de aprendizado contínuo, e dominar esses conceitos básicos é o primeiro grande passo para construir coisas incríveis!
+-   Como usar a `attributeApi` para dar "memória" aos seus bots.
