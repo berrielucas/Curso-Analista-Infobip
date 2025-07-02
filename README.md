@@ -104,7 +104,7 @@ console.log(perfilUsuario.telefone); // Saída: "11987654321"
 
 ## 4. Salvando e Recuperando Dados com a `attributeApi`
 
-Em plataformas de bots, a `attributeApi` é a ferramenta que funciona como a "memória" do seu bot. Ela permite guardar informações sobre um usuário durante a conversa e recuperá-las quando necessário.
+Na plataforma Infobip, a `attributeApi` é a ferramenta que funciona como a "memória" do seu bot. Ela permite guardar informações sobre um usuário durante a conversa e recuperá-las quando necessário.
 
 ### Salvando Dados com `attributeApi.set(chave, valor)`
 
