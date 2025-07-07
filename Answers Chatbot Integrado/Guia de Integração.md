@@ -7,9 +7,9 @@ Este documento detalha os passos necessários para configurar a integração ent
 As seguintes ações devem ser realizadas diretamente na plataforma Rubeus para preparar o ambiente para a integração.
 
 #### Configuração do Canal de Comunicação
-* **Criar Canal:** Registre um novo canal do tipo "Infobip" no CRM.
-    * **Token:** Insira o token de acesso da API do Rubeus.
-    * **Origem:** Defina um nome de origem para identificar os contatos criados via chatbot (ex: `INFOBIP_CHATBOT`).
+* **Criar Canal:** Registre um novo canal com o nome "Infobip" no CRM.
+    * **Token:** Token do canal gerado.
+    * **Origem:** Código do Canal criado.
 
 #### Criação de Eventos
 Crie os eventos que serão enviados pelo chatbot para rastrear a jornada do contato.
