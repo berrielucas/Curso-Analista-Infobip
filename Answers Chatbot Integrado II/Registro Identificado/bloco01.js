@@ -4,9 +4,9 @@ const registro_dados = attributeApi.get('RB_Dados_Registro');
 
 // Verifica se existe algum dado no registro recuperado
 // O operador ?.length garante que só vai tentar acessar o length se 'registro_dados' não for null ou undefined
-if (registro_dados?.length) {
+if (registro_dados) {
     // Se o registro existe, chama a função que vai salvar os dados detalhados dele em outros atributos
-    setAtributosRegistro(dados);
+    setAtributosRegistro(registro_dados);
 }
 
 // Função responsável por salvar as informações mais importantes do registro
