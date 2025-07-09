@@ -63,7 +63,7 @@ function buscaEmail(dados_contato) {
 function montaListaPersonalizada(lista_contato) {
     let lista_personalizada = "";
     for (var i = 0; i < lista_contato.length; i++) {
-        lista_personalizada = lista_personalizada + criaDadosPersonalizadosDeContato(lista_contato[i], list_id.length);
+        lista_personalizada = lista_personalizada + criaDadosPersonalizadosDeContato(lista_contato[i], i + 1);
     }
     lista_personalizada = lista_personalizada + "*_Para continuar, por favor, confirme seu nome, informando o código_*";
     return lista_personalizada;
