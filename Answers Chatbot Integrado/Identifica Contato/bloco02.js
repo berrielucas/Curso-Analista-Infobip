@@ -7,6 +7,7 @@ if (contatos?.length) {
 
     // Conta quantos contatos principais foram encontrados
     const quantidade = contatos_filtrados.length;
+     attributeApi.set("RB_Quantidade_Contatos", quantidade);
 
     // Se foi encontrado exatamente 1 contato principal
     if (quantidade === 1) {
