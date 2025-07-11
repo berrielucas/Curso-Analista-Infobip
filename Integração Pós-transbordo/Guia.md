@@ -6,25 +6,25 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
 ## Parametrização Rubeus
 
 ### Tipos de Evento
-* `[Infobip] Atualização de Conversa`
-* `[Infobip] Atualização de Consultor`
-* `[Infobip] Atualização de Resumo`
+* `{seu nome} - [Infobip] Atualização de Conversa`
+* `{seu nome} - [Infobip] Atualização de Consultor`
+* `{seu nome} - [Infobip] Atualização de Resumo`
 > *Obs: Anote os IDs gerados pelo Rubeus para cada Tipo de Evento. Eles serão usados nas automações.*
 
 ### Propriedades (Campos personalizados)
 
 | Nome | Tipo | Local | Multivalorado | Opções pré-definidas |
 | :--- | :--- | :--- | :--- | :--- |
-| `[Infobip] Consultor` | Texto | Contato | Não | N/A |
-| `[Infobip] Resumo` | Texto | Registro | Não | N/A |
+| `{seu nome} - [Infobip] Consultor` | Texto | Contato | Não | N/A |
+| `{seu nome} - [Infobip] Resumo` | Texto | Registro | Não | N/A |
 > *Obs: Anote o "Identificador interno" das propriedades para usar na automação.*
 
 ### Resumos
 
 | Nome | Tipo | Processos |
 | :--- | :--- | :--- |
-| `Tem interesse` | Registro | Todos |
-| `Não tem interesse` | Registro | Todos |
+| `{seu nome} - Tem interesse` | Registro | Todos |
+| `{seu nome} - Não tem interesse` | Registro | Todos |
 
 ## Parametrizações Infobip (People e Conversation)
 
