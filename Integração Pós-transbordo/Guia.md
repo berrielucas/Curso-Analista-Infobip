@@ -121,9 +121,9 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
             },
             "descricao": "Alterando resumo",
             "camposPersonalizados": {
-                "{Identificador interno da propriedade no Rubeus - [Infobip] Resumo}": "{{field.seu nome - Resumo}}"
+                "{Identificador interno da propriedade no Rubeus - [Infobip] Resumo}": "{{field.Resumo}}"
             },
-            "curso": "{{customer.data.seu nome Identificador do Curso}}",
+            "curso": "{{customer.data.berriel Identificador do Curso}}",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
@@ -153,7 +153,7 @@ Para a atualização de consultor, vamos adicionar mais uma ação em uma automa
             "camposPersonalizados": {
                 "{Identificador interno da propriedade no Rubeus - [Infobip] Consultor}": "{{agent.displayName}}"
             },
-            "curso": "{{customer.data.seu nome Identificador do Curso}}",
+            "curso": "{{customer.data.berriel Identificador do Curso}}",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
