@@ -64,13 +64,13 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
     * **URL:** `{URL base do seu CRM}api/Evento/cadastro` (Ex: `https://meu-crm.apprubeus.com.br/api/Evento/cadastro`)
     * **Tipo de Conteúdo:** `JSON (application/json)`
     * **Corpo:**
-        ```js
+        ```json
         {
             "tipo": "{ID do Tipo de Evento - Atualização de Conversa}",
             "pessoa": {
                 "id": "{{customer.externalPersonId}}"
             },
-            "descricao": "<strong>{{customer.firstName}}:</strong> {{content}} <br> <a href="https://portal.infobip.com/conversations/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
+            "descricao": "<strong>{{customer.firstName}}:</strong> {{content}} <br> <a href="https:\/\/portal.infobip.com\/conversations\/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
@@ -87,13 +87,13 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
     * **URL:** `{URL base do seu CRM}api/Evento/cadastro` (Ex: `https://meu-crm.apprubeus.com.br/api/Evento/cadastro`)
     * **Tipo de Conteúdo:** `JSON (application/json)`
     * **Corpo:**
-        ```js
+        ```json
         {
             "tipo": "{ID do Tipo de Evento - Atualização de Conversa}",
             "pessoa": {
                 "id": "{{customer.externalPersonId}}"
             },
-            "descricao": "<strong>{{agent.displayName}}:</strong> {{content}} <br> <a href="https://portal.infobip.com/conversations/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
+            "descricao": "<strong>{{agent.displayName}}:</strong> {{content}} <br> <a href="https:\/\/portal.infobip.com\/conversations\/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
