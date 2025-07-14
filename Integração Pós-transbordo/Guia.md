@@ -64,7 +64,7 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
     * **URL:** `{URL base do seu CRM}api/Evento/cadastro` (Ex: `https://meu-crm.apprubeus.com.br/api/Evento/cadastro`)
     * **Tipo de Conteúdo:** `JSON (application/json)`
     * **Corpo:**
-        ```json
+        ```js
         {
             "tipo": "{ID do Tipo de Evento - Atualização de Conversa}",
             "pessoa": {
@@ -87,7 +87,7 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
     * **URL:** `{URL base do seu CRM}api/Evento/cadastro` (Ex: `https://meu-crm.apprubeus.com.br/api/Evento/cadastro`)
     * **Tipo de Conteúdo:** `JSON (application/json)`
     * **Corpo:**
-        ```json
+        ```js
         {
             "tipo": "{ID do Tipo de Evento - Atualização de Conversa}",
             "pessoa": {
