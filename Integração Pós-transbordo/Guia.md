@@ -70,7 +70,7 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
             "pessoa": {
                 "id": "{{customer.externalPersonId}}"
             },
-            "descricao": "<strong>{{customer.firstName}}:</strong> {{content}} <br> <a href=\"[https://portal.infobip.com/conversations/my-work?conversationId=](https://portal.infobip.com/conversations/my-work?conversationId=){{conversation.id}}\" >Ver toda conversa</a>",
+            "descricao": "<strong>{{customer.firstName}}:</strong> {{content}} <br> <a href="https://portal.infobip.com/conversations/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
@@ -93,7 +93,7 @@ Os itens entre chaves `{}` são **placeholders**. Substitua-os pelos valores cor
             "pessoa": {
                 "id": "{{customer.externalPersonId}}"
             },
-            "descricao": "<strong>{{agent.displayName}}:</strong> {{content}} <br> <a href=\"[https://portal.infobip.com/conversations/my-work?conversationId=](https://portal.infobip.com/conversations/my-work?conversationId=){{conversation.id}}\" >Ver toda conversa</a>",
+            "descricao": "<strong>{{agent.displayName}}:</strong> {{content}} <br> <a href="https://portal.infobip.com/conversations/my-work?conversationId={{conversation.id}}" >Ver toda conversa</a>",
             "token": "{Token do seu CRM}",
             "origem": "{Origem do seu CRM}"
         }
